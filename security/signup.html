@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Page</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
-<body style="font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; background-color: #f4f4f4; display:flex; justify-content:center; align-items:center; height:100vh;">
-    <div style="background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-        <h2 style="text-align:center; font-family: Verdana, sans-serif;">Signup</h2>
+<body class="auth-page">
+    <div class="auth-panel">
+        <h2>Signup</h2>
         <form action="#" method="POST">
-            <label for="username" style="font-family: Georgia, serif;">Username:</label><br>
-            <input type="text" id="username" name="username" required style="font-family: Arial, sans-serif; width:100%; padding:5px; margin:5px 0;"><br>
-            <label for="password" style="font-family: Georgia, serif;">Password:</label><br>
-            <input type="password" id="password" name="password" required style="font-family: Arial, sans-serif; width:100%; padding:5px; margin:5px 0;"><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
 
-            <label for="confirm_password" style="font-family: Georgia, serif;">Confirm Password:</label><br>
-            <input type="password" id="confirm_password" name="confirm_password" required style="font-family: Arial, sans-serif; width:100%; padding:5px; margin:5px 0;"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
 
-            <input type="submit" value="Sign up to Nudle" style="font-family: Arial, sans-serif; padding:7px 15px; margin-top:10px; cursor:pointer;">
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <input type="submit" value="Sign up to Nudle">
         </form>
     </div>
 </body>
