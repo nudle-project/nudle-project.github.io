@@ -1,3 +1,6 @@
 Disallow: /db/
 Disallow: /software.html
 Disallow: /errors/
+Allow: /index.html
+Disallow: /security/login.html
+Disallow: /security/signup.html
