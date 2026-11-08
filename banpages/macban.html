@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC Ban</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <article class="content">
+        <h1>MAC Ban</h1>
+        <p>Your Nudle account has been banned by MAC adress, due to the reasons stated below.</p>
+        <ul id="ban-reasons"></ul>
+        <script src="reasons.js"></script>
+        <script>
+            const reasonsList = document.getElementById('ban-reasons');
+            banReasons.forEach(reason => {
+                const li = document.createElement('li');
+                li.textContent = reason;
+                reasonsList.appendChild(li);
+            });
+        </script>
+    </article>
+</body>
+</html>
